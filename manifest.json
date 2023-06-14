@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Session Saver",
+    "version": "1.0",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "image16.png",
+            "48": "image48.png",
+            "128": "image128.png"
+        }
+    },
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
